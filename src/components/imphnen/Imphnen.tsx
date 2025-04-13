@@ -219,18 +219,21 @@ export default defineComponent({
                             btnText="Lihat Tutorial"
                         />
                         <CardSourceLearning
+                            color="yellow"
                             title="Artikel & Tutorial"
                             description="Pelajari konsep dasar pemrograman melalui artikel dan tutorial yang kami rekomendasikan."
                             icon={<b-icon-book />}
                             btnText="Baca Artikel"
                         />
                         <CardSourceLearning
+                            color="red"
                             title="Tantangan Coding"
                             description="Uji kemampuanmu dengan tantangan coding yang kami sediakan. Mulai dari level pemula hingga mahir."
                             icon={<b-icon-puzzle-fill />}
                             btnText="Mulai Tantangan"
                         />
                         <CardSourceLearning
+                            color="green"
                             title="Berbagi Sesi"
                             description="Ikuti sesi berbagi pengalaman dari anggota Imphnen. Belajar dari pengalaman orang lain adalah cara yang baik untuk belajar."
                             icon={<b-icon-person-plus-fill />}

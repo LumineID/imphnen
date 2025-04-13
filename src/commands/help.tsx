@@ -23,8 +23,6 @@ const HELP = [
 ]
 
 export default function (args: string[]) {
-    console.log("oke")
-
     return (
         <>
             {HELP.map((item, index) => (

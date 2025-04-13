@@ -3,7 +3,7 @@ import { CMDEnterEvent } from "./types";
 import Input from "./components/cmd/Input";
 import commands from "./commands/commands";
 import CommandNotFound from "./components/cmd/CommandNotFound";
-import Imphnen from "./components/ui/Imphnen";
+import Imphnen from "./components/imphnen/Imphnen";
 import Layout from "./components/cmd/Layout";
 
 export default defineComponent({

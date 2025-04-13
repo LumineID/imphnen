@@ -42,29 +42,11 @@ export default defineComponent({
 
             if (props.outline) {
                 classes.push(
-                    ({
-                        blue: "text-blue-400 border border-blue-400",
-                        green: "text-green-400 border border-green-400",
-                        red: "text-red-400 border border-red-400",
-                        yellow: "text-yellow-400 border border-yellow-400",
-                        teal: "text-teal-400 border border-teal-400",
-                        cyan: "text-cyan-400 border border-cyan-400",
-                        gray: "text-gray-400 border border-gray-400",
-                        pink: "text-pink-400 border border-pink-400",
-                    })[props.color]
+                    `text-${props.color}-400 border border-${props.color}-400`
                 )
             } else {
                 classes.push(
-                    ({
-                        blue: "bg-blue-400 text-white",
-                        green: "bg-green-400 text-white",
-                        red: "bg-red-400 text-white",
-                        yellow: "bg-yellow-400 text-white",
-                        teal: "bg-teal-400 text-white",
-                        cyan: "bg-cyan-400 text-white",
-                        gray: "bg-gray-800 text-white",
-                        pink: "bg-pink-400 text-white",
-                    })[props.color]
+                    `bg-${props.color}-400 text-white`
                 )
             }
 

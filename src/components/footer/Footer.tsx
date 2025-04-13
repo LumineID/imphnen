@@ -9,7 +9,7 @@ import Button from "../button/Button";
 export const FOOTER_PROGRAMING_LANGUAGE: Array<{ name: string, color: TWColor, source: string }> = [
     {
         name: "PHP",
-        color: "red",
+        color: "cyan",
         source: "https://www.php.net/"
     },
     {

@@ -40,7 +40,11 @@ export default defineComponent({
                         </h2>
                         <div class="flex gap-4 cursor-pointer items-center">
                             <div onClick={() => isFullscreen.value = !isFullscreen.value}>
-                                <b-icon-fullscreen class="text-lg" />
+                                {isFullscreen.value ? (
+                                    <b-icon-fullscreen-exit class="text-lg" />
+                                ) : (
+                                    <b-icon-fullscreen class="text-lg" />
+                                )}
                             </div>
                             <div onClick={() => emit("close")}>
                                 <b-icon-x class="text-2xl" />

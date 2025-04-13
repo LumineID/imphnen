@@ -33,7 +33,11 @@ export default defineComponent({
                     </div>
                     <div class="flex justify-end items-center">
                         <div onClick={() => isFullscreen.value = !isFullscreen.value}>
-                            <b-icon-fullscreen class="text-lg text-gray-300" />
+                            {isFullscreen.value ? (
+                                <b-icon-fullscreen-exit class="text-lg" />
+                            ) : (
+                                <b-icon-fullscreen class="text-lg" />
+                            )}
                         </div>
                     </div>
                 </div>

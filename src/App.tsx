@@ -54,7 +54,7 @@ export default defineComponent({
 
         onBeforeMount(() => {
             addElement(null, <p class="mb-5">Type "help" to show help message</p>)
-            addElement(null, <Input locationPath="D:\Imphnen" onEnter={onEnter} autoTyping={{text: "./imphnen.exe", delay: 0}} />)
+            addElement(null, <Input locationPath="D:\Imphnen" onEnter={onEnter} autoTyping={{text: "./imphnen.exe", delay: 100}} />)
         })
 
         return () => (

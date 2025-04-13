@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
     "bootstrap-icons-vue": "^1.11.3",
     "vue": "^3.5.13"
   },

@@ -39,11 +39,11 @@ export default defineComponent({
                             {props.title}
                         </h2>
                         <div class="flex gap-4 cursor-pointer items-center">
-                            <div onClick={() => isFullscreen.value = !isFullscreen.value}>
+                            <div onClick={() => isFullscreen.value = !isFullscreen.value} class="text-gray-300 text-lg">
                                 {isFullscreen.value ? (
-                                    <b-icon-fullscreen-exit class="text-lg" />
+                                    <b-icon-fullscreen-exit />
                                 ) : (
-                                    <b-icon-fullscreen class="text-lg" />
+                                    <b-icon-fullscreen />
                                 )}
                             </div>
                             <div onClick={() => emit("close")}>

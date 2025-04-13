@@ -43,7 +43,6 @@ export default defineComponent({
             elements.value = elements.value.filter(element => element.command !== "imphnen")
             nextTick(inputElement)
         }
-        // addElement("imphnen", h(Imphnen, { onClose: closeUI }))
 
         function inputElement() {
             addElement(null, <Input locationPath="D:\Imphnen" onEnter={onEnter} />)
@@ -55,9 +54,7 @@ export default defineComponent({
 
         onBeforeMount(() => {
             addElement(null, <p class="mb-5">Type "help" to show help message</p>)
-            // inputElement()
-            // addElement(null, <Input locationPath="D:\Imphnen" onEnter={onEnter} autoTyping={{text: "./imphnen.exe", delay: 0}} />)
-            addElement("imphnen", h(Imphnen, { onClose: closeUI }))
+            addElement(null, <Input locationPath="D:\Imphnen" onEnter={onEnter} autoTyping={{text: "./imphnen.exe", delay: 0}} />)
         })
 
         return () => (

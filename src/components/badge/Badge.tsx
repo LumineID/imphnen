@@ -24,6 +24,7 @@ export default defineComponent({
                 teal: "bg-teal-400/30 text-teal-400 border-[1px] border-teal-400",
                 red: "bg-red-400/30 text-red-400 border-[1px] border-red-400",
                 gray: "bg-gray-400/30 text-gray-400 border-[1px] border-gray-400",
+                pink: "bg-gray-400/30 text-gray-400 border-[1px] border-gray-400",
             })[props.color]
 
             return [
